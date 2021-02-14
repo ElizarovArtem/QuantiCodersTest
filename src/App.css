@@ -1,38 +1,29 @@
 .App {
-  text-align: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.titleChildren1 {
+    text-align: center;
+    font-family: Geometria, sans-serif;
+    color: #363b5d;
+}
+.titleChildren1 span {
+    padding: 8px 20px;
+    border: 2px solid #363b5d;
+    cursor: pointer;
+}
+.titleChildren1 :nth-child(1) {
+    border-radius: 5px 0 0 5px;
+}
+.titleChildren1 :nth-child(2) {
+    border-radius: 0 5px 5px 0;
+}
+.activeField {
+    background-color: #363b5d;
+    color: white;
+}
+.titleChildren2 {
+    display: block;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
