@@ -11,13 +11,13 @@ type HelpWaysPropsType = {
 export const HelpWays = React.memo((props: HelpWaysPropsType) => {
     let helpWay: React.ReactNode;
     switch (props.currentPaymentWayId) {
-        case 1:  helpWay = <div>Work and help</div>
+        case 1:  helpWay = <div className={style.anotherWay}>Work and help</div>
             break
         case 2:   helpWay = <MoneyHelp/>
             break
-        case 3:   helpWay = <div>Give some clothes</div>
+        case 3:   helpWay = <div className={style.anotherWay}>Give some clothes</div>
             break
-        case 4:   helpWay = <div>Be volunteer</div>
+        case 4:   helpWay = <div className={style.anotherWay}>Be volunteer</div>
             break
         default: return <div></div>
     }

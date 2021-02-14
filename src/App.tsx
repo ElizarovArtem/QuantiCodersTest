@@ -54,7 +54,7 @@ function App() {
                     </div>
                 </Title>
 
-                {isIndividual ? <SuperForm/> : <div style={{marginTop: 20}}>Layer face</div>}
+                {isIndividual ? <SuperForm/> : <div style={{marginTop: 20}}>Legal entity</div>}
 
                 <Title text={"Ways to help"}>
                     <span className={"titleChildren2"}>You can choose a way to help</span>
